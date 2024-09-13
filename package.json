@@ -2,10 +2,14 @@
   "name": "workshop-1",
   "version": "1.0.0",
   "description": "1dv610-workshop-1",
-  "main": "index.js",
+  "type": "module",
+  "browser": "src/js/index.js",
   "scripts": {
-    "test": "",
-    "start": "/src/js/index.js"
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "lint": "npx eslint ./src || exit 0",
+    "lint:fix": "npx eslint ./src --fix || exit 0"
   },
   "author": "Robin Pettersson",
   "license": "ISC",
