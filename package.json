@@ -1,0 +1,15 @@
+{
+  "name": "workshop-1",
+  "version": "1.0.0",
+  "description": "1dv610-workshop-1",
+  "main": "index.js",
+  "scripts": {
+    "test": "",
+    "start": "/src/js/index.js"
+  },
+  "author": "Robin Pettersson",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^5.4.4"
+  }
+}
